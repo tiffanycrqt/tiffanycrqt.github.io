@@ -1,0 +1,605 @@
+
+body {
+
+  font-family: dustin;
+  color:white;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: 10px solid white;
+
+}
+
+.backcolor {
+  background-color: rgba(0, 100, 0, 0.5);
+
+}
+
+.cover img {
+  position:fixed;
+  width: 100%;
+  z-index: -100;
+  height: 100%;
+}
+
+
+@font-face {
+  font-family: "dustin";
+  src: url("fonts/dustin/dustin_scribble.ttf");
+}
+
+
+
+/*  ----------------------       page HOME          ---------------------- */
+
+
+/* banner */
+.banner {
+
+  padding: 50px;
+  padding-top: 20px;
+  border-bottom: 10px solid white;
+
+}
+
+.banner h1 {
+font-size: 5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top:70px;
+
+}
+
+nav {
+color: yellow;
+  background-color: rgba(0, 0, 0, 0.0);
+  /*height: 90px;*/
+  margin-bottom: 10px;
+  box-shadow:none;
+
+}
+nav h2 {
+  border: 4px solid red;
+color: yellow;
+  border-radius:2em 1em 4em / 0.5em 3em;
+font-size: 55px;
+  text-transform: uppercase;
+}
+
+.button {
+  text-transform: uppercase;
+  color: yellow;
+padding: 15px 25px;
+ font-size: 65px;
+ text-align: center;
+ cursor: pointer;
+ outline: none;
+ color: #fff;
+ background-color: rgba(0, 0, 0, 0.0);
+  border: 3px solid white;
+   border-radius:2em 1em 4em / 0.5em 3em;
+ box-shadow: 0 9px  rgba (150,150,150, 0.0);
+}
+
+.button:hover {background-color: rgba(0, 100, 0, 0.1);
+color: yellow;
+border-color: red;
+}
+
+.button:active {
+  border-color: red;
+  color: yellow;
+  background-color:  rgba(0, 100, 0, 0.1);
+  box-shadow: 0 5px  rgba(0, 100, 0, 0.1);
+  transform: translateY(4px);
+}
+
+
+.dot {
+  border-bottom: 10px dashed white;
+  padding-top: 70px;
+}
+
+#btnpro {
+  vertical-align: middle;
+  text-align: center;
+
+
+}
+#btncontact {
+  text-align: center;
+  vertical-align: middle;
+
+
+}
+
+
+
+/* ----------------------       MIDDLE         ----------------------*/
+
+
+.mid {
+  margin-top: 90px;
+
+}
+.mid  li  {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+background-image: url("images/note.png");
+  color: black;
+}
+
+.mid .illust img  {
+-moz-transition-duration:0.3s;
+-moz-transition-timing-function:linear;
+-webkit-transition-duration:0.3s;
+-webkit-transition-timing-function:linear;
+transition-duration:0.3s;
+transition-timing-function:linear;
+}
+
+.mid .illust img:hover  {
+-moz-transform:rotate(180deg);
+-webkit-transform:rotate(180deg);
+transform:rotate(180deg);
+}
+
+.present ul {
+  border-bottom: 3px solid white;
+  text-align: center;
+}
+
+.basl {
+  border-top: 12px solid white;
+  padding-bottom: 10px;
+}
+
+.basp {
+  border-top: 12px dashed white;
+  margin-top: 50px;
+}
+
+.socialnet a img{
+  position: relative;
+	top: 0;
+	/*box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 2px #816F47;*/
+	transition: all 0.3s ease-in;
+}
+
+.socialnet a:before img {
+	content: ' ';
+	position: absolute;
+	bottom: -1px; left: 0;
+	width: 100%;
+	height: 6px;
+	background: rgba(0, 100, 0, 0.6);
+	/*box-shadow: 0 0 5px #9b885e,0 0 5px #9b885e,0 0 5px #9b885e;*/
+	border-radius: 90px/20px;
+	z-index: -1;
+	transition: all 0.3s ease-in;
+}
+.socialnet a:hover img ,
+.socialnet a:focus img {
+	top: -10px;
+}
+.socialnet a:hover:before img,
+.socialnet a:focus:before img{
+	bottom: -11px;
+	left: -3px;
+	width: 106%;
+	height: 4px;
+	background: rgba(0, 100, 0, 0.6);
+	/*box-shadow: 0 0 9px rgba(0, 100, 0, 0.6),0 0 9px rgba(0, 100, 0, 0.6),0 0 9px rgba(0, 100, 0, 0.6),0 0 9pxrgba(0, 100, 0, 0.6),0 0 9px rgba(0, 100, 0, 0.6);*/
+}
+
+/*  ----------------------          page PROFIL         ---------------------- */
+
+
+.profil {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-image: url("images/blackb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  border-radius: 60px;
+  border: 7px solid white;
+}
+
+
+.profil h1 {
+  font-size: 80px;
+  border: 2px solid white;
+  border-radius:2em 1em 4em / 0.5em 3em;
+    text-transform: uppercase;
+}
+
+.profil img {
+  height:50px;
+}
+
+.collapsible-body li  {
+  border-bottom: 1 solid white;
+}
+
+.profil li .collapsible-header {
+  background-color: rgba(50, 100, 50, 0.0);
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+padding-top: 20px;
+}
+.collapsible-body {
+  border-radius:50px;
+  border-bottom: 0;
+}
+.profil .collapsible {
+  border-top: none;
+}
+
+.profil h4 {
+  font-size: 50px;
+    text-transform: uppercase;
+}
+
+.bouts a {
+  color: white;
+  text-align: center;
+}
+
+.bouts h1{
+  border-bottom: 2px solid white;
+    text-transform: uppercase;
+}
+
+.baslig {
+  border-top: 3px groove white;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+
+
+
+/*  ----------------------        page CONTACT      ---------------------- */
+
+.contact {
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+
+.contact .page{
+  left: 0;
+  top: 0;
+}
+.contact .pag {
+  display: none
+}
+/*.page {
+  height: 700px;
+}*/
+/*.pagedeux {
+  height: 700px;
+}*/
+.contact h1{
+
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+  border: 3px solid white;
+  border-radius:2em 1em 4em / 0.5em 3em;
+    text-transform: uppercase;
+}
+.pages img {
+  margin-top: 30px;
+}
+.contact a {
+  color: white;
+
+}
+
+.mentions h3 {
+  text-align: center;
+  font-weight: bold;
+
+}
+
+/*  ----------------------        page MENTIONS     ---------------------- */
+
+.mentionslegales {
+  color: black;
+  font-family: cursive;
+}
+
+/*================================================================================*/
+
+/*  -----------------------------  MEDIAQ    -------------------------------*/
+
+/*================================================================================*/
+
+@media screen and (max-width: 1268px) {
+
+.banner h1 {
+  font-size: 65px;
+}
+.button {
+  font-size: 45px;
+}
+
+}
+
+
+  /*==============================================================================
+  ================================================================================
+  ================================================================================
+  ===============================================================================*/
+
+@media screen and (max-width: 980px)
+
+{
+
+.banner h1 {
+  margin-top: 55px;
+}
+
+.socialnet {
+  margin-bottom: 40px;
+}
+
+  /*   ----------------    PROFIL     ----------------    */
+
+.profil h4 {
+  font-size: 30px;
+}
+
+.profil h1 {
+  font-size: 40px;
+}
+
+
+
+
+/* ----------------------       MIDDLE         ----------------------*/
+
+
+.present ul {
+  margin-left: 20px;
+}
+
+}
+
+/*==============================================================================
+================================================================================
+================================================================================
+===============================================================================*/
+
+
+@media screen and (max-width: 800px)
+
+{
+
+  /*   ----------------   HOME      ----------------    */
+
+  .banner h1 {
+    padding: 10px;
+    margin: 0;
+    margin-top: 20px;
+
+  }
+.button {
+  font-size: 45px;
+}
+  nav h2 {
+    font-size: 40px;
+  }
+  .dot {
+    padding-top: 20px;
+  }
+
+/* ----------------------       MIDDLE         ----------------------*/
+
+  .mid li {
+
+    font-size: 15px;
+  }
+
+.socialnet {
+  margin-bottom: 40px;
+}
+
+
+  /*   ----------------    PROFIL     ----------------    */
+
+  .profil {
+
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-radius: 60px;
+   border: 3px solid white;
+  }
+.profil h4 {
+  font-size: 30px;
+}
+
+.profil h1 {
+  font-size: 40px;
+
+}
+  /*   ----------------    CONTACT     ----------------    */
+
+.contact h1{
+  font-size: 28px;
+}
+
+
+  .page {
+    height: auto;
+  }
+
+
+}
+
+
+/*=============================================================================
+===============================================================================
+===============================================================================
+===============================================================================*/
+
+
+@media screen and (max-width: 601px)
+{
+
+  body {
+    border: 4px solid white;
+  }
+
+
+
+  /* ------------------      HOME     --------------------- */
+  .banner {
+    border-bottom: 5px solid white;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .banner .logoblason {
+    padding-left:20px;
+    padding-right: 20px;
+  }
+.button {
+  font-size: 25px;
+}
+  .banner h1 {
+
+    font-size:30px;
+    margin: 0;
+
+  }
+
+  .dot {
+    border-bottom: 5px dashed white;
+    padding-top: 10px;
+  }
+
+  nav h2 {
+    font-size: 20px;
+
+  }
+
+  .banner .name img {
+    margin-top: 30px;
+  }
+
+  /* ----------------------       MIDDLE         ----------------------*/
+
+
+  .mid .pola {
+    padding: 20px;
+  }
+
+  .illust {
+    display: none;
+  }
+
+  .present {
+    display: none;
+  }
+
+
+  .mid  .lign3 {
+    padding-bottom: 20px;
+  }
+
+
+
+  #home .socialnet {
+    margin-top: 20px;
+  }
+
+  #btnpro {
+    vertical-align: middle;
+    text-align: center;
+
+  }
+
+  #btncontact {
+    text-align: center;
+    vertical-align: middle;
+
+  }
+
+  .basl {
+    border-top: 5px solid white;
+
+  }
+
+  .basp {
+    border-top: 5px dashed white;
+  }
+
+
+
+
+  /* ------------------      PROFIL       --------------------- */
+
+
+  #profil h1 {
+    font-size: 35px;
+  }
+  .profil h4 {
+    font-size:20px;
+  }
+
+  .bouts a h1 {
+    font-size: 40px;
+  }
+
+.profil {
+
+  margin: 30px;
+}
+
+  .mid {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  /* ------------------        CONTACT           --------------------- */
+
+
+  #contact h1 {
+    font-size: 20px;
+  }
+.page {
+  height:auto;
+}
+
+.pagedeux {
+  display: none;
+
+}
+
+
+
+}
