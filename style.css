@@ -217,8 +217,9 @@ nav h2 {
 
 .profil h1 {
   font-size: 80px;
-  border: 2px solid white;
-  border-radius:2em 1em 4em / 0.5em 3em;
+
+  border-bottom: 3px solid white;
+  /*border-radius:2em 1em 4em / 0.5em 3em;*/
   text-transform: uppercase;
 }
 
@@ -325,24 +326,22 @@ nav h2 {
 }
 
 .mentions {
-    background: rgba(0, 100, 0, 0.5);
-}
 
+}
+.mentions a:hover {
+  color:red;
+}
 
 .mentions h3 {
 
-
+  background: rgba(0, 100, 0, 0.6);
   padding: 10px;
   margin: 0;
   border: 5px;
   font-size: 30px;
 }
 
-.mentions a {
-text-decoration: underline;
 
-
-}
 .mentionslegales {
 color: black;
   font-size: 1em;
