@@ -27,7 +27,10 @@ body {
   font-family: "dustin";
   src: url("fonts/dustin/dustin_scribble.ttf");
 }
-
+@font-face {
+  font-family : "kingthings";
+  src: url("fonts/kingthings/kingthings.ttf");
+}
 
 
 /*  ----------------------       page HOME          ---------------------- */
@@ -43,7 +46,7 @@ body {
 }
 
 .banner h1 {
-font-size: 5em;
+  font-size: 5em;
   text-transform: uppercase;
   font-weight: bold;
   margin-top:70px;
@@ -51,39 +54,38 @@ font-size: 5em;
 }
 
 nav {
-color: yellow;
+  color: yellow;
   background-color: rgba(0, 0, 0, 0.0);
-  /*height: 90px;*/
   margin-bottom: 10px;
   box-shadow:none;
 
 }
 nav h2 {
   border: 4px solid red;
-color: yellow;
+  color: yellow;
   border-radius:2em 1em 4em / 0.5em 3em;
-font-size: 55px;
+  font-size: 55px;
   text-transform: uppercase;
 }
 
 .button {
   text-transform: uppercase;
   color: yellow;
-padding: 15px 25px;
- font-size: 65px;
- text-align: center;
- cursor: pointer;
- outline: none;
- color: #fff;
- background-color: rgba(0, 0, 0, 0.0);
+  padding: 15px 25px;
+  font-size: 65px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.0);
   border: 3px solid white;
-   border-radius:2em 1em 4em / 0.5em 3em;
- box-shadow: 0 9px  rgba (150,150,150, 0.0);
+  border-radius:2em 1em 4em / 0.5em 3em;
+  box-shadow: 0 9px  rgba (150,150,150, 0.0);
 }
 
 .button:hover {background-color: rgba(0, 100, 0, 0.1);
-color: yellow;
-border-color: red;
+  color: yellow;
+  border-color: red;
 }
 
 .button:active {
@@ -127,23 +129,23 @@ border-color: red;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-background-image: url("images/note.png");
+  background-image: url("images/note.png");
   color: black;
 }
 
 .mid .illust img  {
--moz-transition-duration:0.3s;
--moz-transition-timing-function:linear;
--webkit-transition-duration:0.3s;
--webkit-transition-timing-function:linear;
-transition-duration:0.3s;
-transition-timing-function:linear;
+  -moz-transition-duration:0.3s;
+  -moz-transition-timing-function:linear;
+  -webkit-transition-duration:0.3s;
+  -webkit-transition-timing-function:linear;
+  transition-duration:0.3s;
+  transition-timing-function:linear;
 }
 
 .mid .illust img:hover  {
--moz-transform:rotate(180deg);
--webkit-transform:rotate(180deg);
-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
 }
 
 .present ul {
@@ -153,7 +155,7 @@ transform:rotate(180deg);
 
 .basl {
   border-top: 12px solid white;
-  padding-bottom: 10px;
+
 }
 
 .basp {
@@ -163,35 +165,32 @@ transform:rotate(180deg);
 
 .socialnet a img{
   position: relative;
-	top: 0;
-	/*box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 2px #816F47;*/
-	transition: all 0.3s ease-in;
+  top: 0;
+  transition: all 0.3s ease-in;
 }
 
 .socialnet a:before img {
-	content: ' ';
-	position: absolute;
-	bottom: -1px; left: 0;
-	width: 100%;
-	height: 6px;
-	background: rgba(0, 100, 0, 0.6);
-	/*box-shadow: 0 0 5px #9b885e,0 0 5px #9b885e,0 0 5px #9b885e;*/
-	border-radius: 90px/20px;
-	z-index: -1;
-	transition: all 0.3s ease-in;
+  content: ' ';
+  position: absolute;
+  bottom: -1px; left: 0;
+  width: 100%;
+  height: 6px;
+  background: rgba(0, 100, 0, 0.6);
+  border-radius: 90px/20px;
+  z-index: -1;
+  transition: all 0.3s ease-in;
 }
 .socialnet a:hover img ,
 .socialnet a:focus img {
-	top: -10px;
+  top: -10px;
 }
 .socialnet a:hover:before img,
 .socialnet a:focus:before img{
-	bottom: -11px;
-	left: -3px;
-	width: 106%;
-	height: 4px;
-	background: rgba(0, 100, 0, 0.6);
-	/*box-shadow: 0 0 9px rgba(0, 100, 0, 0.6),0 0 9px rgba(0, 100, 0, 0.6),0 0 9px rgba(0, 100, 0, 0.6),0 0 9pxrgba(0, 100, 0, 0.6),0 0 9px rgba(0, 100, 0, 0.6);*/
+  bottom: -11px;
+  left: -3px;
+  width: 106%;
+  height: 4px;
+  background: rgba(0, 100, 0, 0.6);
 }
 
 /*  ----------------------          page PROFIL         ---------------------- */
@@ -220,7 +219,7 @@ transform:rotate(180deg);
   font-size: 80px;
   border: 2px solid white;
   border-radius:2em 1em 4em / 0.5em 3em;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .profil img {
@@ -236,7 +235,7 @@ transform:rotate(180deg);
   font-weight: bold;
   border: none;
   border-radius: 100px;
-padding-top: 20px;
+  padding-top: 20px;
 }
 .collapsible-body {
   border-radius:50px;
@@ -248,7 +247,7 @@ padding-top: 20px;
 
 .profil h4 {
   font-size: 50px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .bouts a {
@@ -258,7 +257,7 @@ padding-top: 20px;
 
 .bouts h1{
   border-bottom: 2px solid white;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .baslig {
@@ -288,12 +287,7 @@ padding-top: 20px;
 .contact .pag {
   display: none
 }
-/*.page {
-  height: 700px;
-}*/
-/*.pagedeux {
-  height: 700px;
-}*/
+
 .contact h1{
 
   text-align: center;
@@ -301,7 +295,7 @@ padding-top: 20px;
   margin-top: 0;
   border: 3px solid white;
   border-radius:2em 1em 4em / 0.5em 3em;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .pages img {
   margin-top: 30px;
@@ -318,12 +312,48 @@ padding-top: 20px;
 }
 
 /*  ----------------------        page MENTIONS     ---------------------- */
+.mentions {
+    background: rgba(0, 100, 0, 0.5);
 
-.mentionslegales {
-  color: black;
-  font-family: cursive;
 }
 
+.mentions h3 {
+
+
+  padding: 10px;
+  margin: 0;
+  border: 5px;
+  font-size: 30px;
+}
+
+.mentions a {
+text-decoration: underline;
+
+
+}
+.mentionslegales {
+color: black;
+  font-size: 1em;
+  font-family: kingthings;
+  text-align: justify;
+}
+.mentionslegales a {
+  color: red;
+
+}
+
+.mentionslegales h3 {
+  text-align: center;
+}
+
+.mentionslegales h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.mentionslegales p {
+  padding: 50px;
+}
 /*================================================================================*/
 
 /*  -----------------------------  MEDIAQ    -------------------------------*/
@@ -332,52 +362,52 @@ padding-top: 20px;
 
 @media screen and (max-width: 1268px) {
 
-.banner h1 {
-  font-size: 65px;
-}
-.button {
-  font-size: 45px;
-}
+  .banner h1 {
+    font-size: 65px;
+  }
+  .button {
+    font-size: 45px;
+  }
 
 }
 
 
-  /*==============================================================================
-  ================================================================================
-  ================================================================================
-  ===============================================================================*/
+/*==============================================================================
+================================================================================
+================================================================================
+===============================================================================*/
 
 @media screen and (max-width: 980px)
 
 {
 
-.banner h1 {
-  margin-top: 55px;
-}
+  .banner h1 {
+    margin-top: 55px;
+  }
 
-.socialnet {
-  margin-bottom: 40px;
-}
+  .socialnet {
+    margin-bottom: 40px;
+  }
 
   /*   ----------------    PROFIL     ----------------    */
 
-.profil h4 {
-  font-size: 30px;
-}
+  .profil h4 {
+    font-size: 30px;
+  }
 
-.profil h1 {
-  font-size: 40px;
-}
-
-
+  .profil h1 {
+    font-size: 40px;
+  }
 
 
-/* ----------------------       MIDDLE         ----------------------*/
 
 
-.present ul {
-  margin-left: 20px;
-}
+  /* ----------------------       MIDDLE         ----------------------*/
+
+
+  .present ul {
+    margin-left: 20px;
+  }
 
 }
 
@@ -399,9 +429,9 @@ padding-top: 20px;
     margin-top: 20px;
 
   }
-.button {
-  font-size: 45px;
-}
+  .button {
+    font-size: 45px;
+  }
   nav h2 {
     font-size: 40px;
   }
@@ -409,16 +439,16 @@ padding-top: 20px;
     padding-top: 20px;
   }
 
-/* ----------------------       MIDDLE         ----------------------*/
+  /* ----------------------       MIDDLE         ----------------------*/
 
   .mid li {
 
     font-size: 15px;
   }
 
-.socialnet {
-  margin-bottom: 40px;
-}
+  .socialnet {
+    margin-bottom: 40px;
+  }
 
 
   /*   ----------------    PROFIL     ----------------    */
@@ -433,21 +463,21 @@ padding-top: 20px;
     padding-bottom: 50px;
     padding-top: 20px;
     border-radius: 60px;
-   border: 3px solid white;
+    border: 3px solid white;
   }
-.profil h4 {
-  font-size: 30px;
-}
+  .profil h4 {
+    font-size: 30px;
+  }
 
-.profil h1 {
-  font-size: 40px;
+  .profil h1 {
+    font-size: 40px;
 
-}
+  }
   /*   ----------------    CONTACT     ----------------    */
 
-.contact h1{
-  font-size: 28px;
-}
+  .contact h1{
+    font-size: 28px;
+  }
 
 
   .page {
@@ -485,9 +515,9 @@ padding-top: 20px;
     padding-left:20px;
     padding-right: 20px;
   }
-.button {
-  font-size: 25px;
-}
+  .button {
+    font-size: 25px;
+  }
   .banner h1 {
 
     font-size:30px;
@@ -573,10 +603,10 @@ padding-top: 20px;
     font-size: 40px;
   }
 
-.profil {
+  .profil {
 
-  margin: 30px;
-}
+    margin: 30px;
+  }
 
   .mid {
     margin-top: 10px;
@@ -591,14 +621,14 @@ padding-top: 20px;
   #contact h1 {
     font-size: 20px;
   }
-.page {
-  height:auto;
-}
+  .page {
+    height:auto;
+  }
 
-.pagedeux {
-  display: none;
+  .pagedeux {
+    display: none;
 
-}
+  }
 
 
 
