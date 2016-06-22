@@ -312,10 +312,22 @@ nav h2 {
 }
 
 /*  ----------------------        page MENTIONS     ---------------------- */
+.retour h4 {
+  margin-top: 0;
+  border: 0;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #f2ffa8;
+  font-size: 30px;
+  border: 2px double lightblue;
+}
+}
+
 .mentions {
     background: rgba(0, 100, 0, 0.5);
-
 }
+
 
 .mentions h3 {
 
@@ -347,6 +359,7 @@ color: black;
 }
 
 .mentionslegales h2 {
+  margin-top: 0;
   text-align: center;
   padding-bottom: 30px;
 }
