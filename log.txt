@@ -1,0 +1,23 @@
+commit 2295385eec0d99a60181371887a34f41cfa60d8b
+Author: Tiffany Criquet <capn_yogg@debian>
+Date:   Wed Jun 22 16:46:47 2016 +0200
+
+    mise en page
+
+commit 10de26c207d2959e21e6bc4828750a5b05d37889
+Author: Tiffany Criquet <capn_yogg@debian>
+Date:   Wed Jun 22 16:19:17 2016 +0200
+
+    mentionslegales2
+
+commit 5a8226fe944be177df41bb110e18780112df3897
+Author: Tiffany Criquet <capn_yogg@debian>
+Date:   Wed Jun 22 14:57:09 2016 +0200
+
+    mentionslegales
+
+commit 576b6ac4f17c2c730750cb13fc7098fc103167bb
+Author: Tiffany Criquet <capn_yogg@debian>
+Date:   Tue Jun 21 14:35:23 2016 +0200
+
+    first commit

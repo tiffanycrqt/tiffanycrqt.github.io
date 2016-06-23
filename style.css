@@ -323,11 +323,7 @@ nav h2 {
   font-size: 30px;
   border: 2px double lightblue;
 }
-}
 
-.mentions {
-
-}
 .mentions a:hover {
   color:red;
 }
@@ -343,7 +339,7 @@ nav h2 {
 
 
 .mentionslegales {
-color: black;
+  color: black;
   font-size: 1em;
   font-family: kingthings;
   text-align: justify;
@@ -382,7 +378,13 @@ color: black;
   }
 
 }
-
+.mentionslegales h2 {
+  margin-top: 0;
+  text-align: left;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
 
 /*==============================================================================
 ================================================================================
@@ -495,6 +497,37 @@ color: black;
   .page {
     height: auto;
   }
+
+.mentionslegales h2 {
+font-size: 40px;
+padding-bottom: 5px;
+
+}
+}
+/*==============================================================================
+================================================================================
+================================================================================
+===============================================================================*/
+
+
+@media screen and (max-width: 735px){
+
+  .mentionslegales h2 {
+    font-size: 30px;
+  }
+
+.mentionslegales {
+  font-size: 16px;
+}
+
+.mentionslegales h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.mentionslegales p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 
 }
@@ -641,6 +674,29 @@ color: black;
     display: none;
 
   }
+
+
+
+}
+
+
+/*=============================================================================
+===============================================================================
+===============================================================================
+===============================================================================*/
+
+
+@media screen and (max-width: 624px) {
+
+.mentionslegales h2 {
+
+  padding-top: 60px;
+}
+
+.mentionslegales p {
+  font-size: 14px;
+}
+
 
 
 
